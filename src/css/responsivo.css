@@ -130,13 +130,13 @@
 
     .container .informacoes .titulo h1{
         font-size: 30px;
-        width: 330px;
+        max-width: 330px;
         margin-top: 50px;
         margin-right: 0;
     }
 
     .container .informacoes .texto p{
-        width: 345px;
+        max-width: 345px;
         font-weight: 300;
     }
 
