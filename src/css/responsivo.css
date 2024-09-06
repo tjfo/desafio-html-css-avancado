@@ -1,0 +1,154 @@
+
+@media(max-width: 768px){
+    body{
+        background: url("../images/bg-mobile.svg") no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: cover;
+        height: 30vh;
+    }
+
+    .logo img{
+        width: 150px;
+    }
+
+    .container{
+        display: block;
+        
+    }
+
+    .container .imagem img{
+        width: 350px;
+    }
+
+    .container .informacoes{
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .container .informacoes .titulo h1{
+        font-size: 30px;
+        width: 330px;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    .container .informacoes .texto p{
+        width: 345px;
+        font-weight: 300;
+    }
+
+    .container .informacoes .botao{
+        align-items: center;
+        margin: auto;
+        padding: 10px 75px;
+    }
+
+    footer .redes{
+        justify-content: center;
+        margin-top: 70px;
+    }
+}
+
+
+
+@media(max-width: 420px){
+    body{
+        background: url("../images/bg-mobile.svg") no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: cover;
+        height: 30vh;
+    }
+
+    .logo img{
+        width: 150px;
+    }
+
+    .container{
+        display: block;
+    }
+
+    .container .imagem img{
+        width: 350px;
+    }
+
+    .container .informacoes{
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .container .informacoes .titulo h1{
+        font-size: 30px;
+        width: 330px;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    .container .informacoes .texto p{
+        width: 345px;
+        font-weight: 300;
+    }
+
+    .container .informacoes .botao{
+        align-items: center;
+        margin: auto;
+        padding: 10px 75px;
+    }
+
+    footer .redes{
+        justify-content: center;
+        margin-top: 70px;
+    }
+}
+
+@media(max-width: 420px){
+    body{
+        background: url("../images/bg-mobile.svg") no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: cover;
+        height: 30vh;
+    }
+
+    .logo img{
+        width: 150px;
+    }
+
+    .container{
+        display: block;
+    }
+
+    .container .imagem img{
+        width: 350px;
+    }
+
+    .container .informacoes{
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .container .informacoes .titulo h1{
+        font-size: 30px;
+        width: 330px;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    .container .informacoes .texto p{
+        width: 345px;
+        font-weight: 300;
+    }
+
+    .container .informacoes .botao{
+        align-items: center;
+        margin: auto;
+        padding: 10px 75px;
+    }
+
+    footer .redes{
+        justify-content: center;
+        margin-top: 70px;
+    }
+}
+
