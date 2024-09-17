@@ -8,7 +8,10 @@
 
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,31 +26,26 @@
 </head>
 <body>
   <header>
-    <div href="#" class="logo">
-      <img src="./src/images/logo.svg" alt="logo Huddle">
-  </div>
+      <img id="logo" src="./src/images/logo.svg" alt="logo Huddle">
   </header>
   <main>
-    <div class="container">
-      <div class="imagem">
-        <img src="./src/images/illustration-mockups.svg" alt="imagem">
+      <div class="ilustracao-container">
+        <img class="ilustracao" src="./src/images/illustration-mockups.svg" alt="ilustracao">
       </div>
-      <div class="informacoes">
-        <h1 class="titulo">Build The Community Your Fans Will Love</h1>
-        <p class="texto">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
 
-        <p class="botao">Register</p>
-    </div>
-    </div>
+      <div class="informacoes-container">
+        <h1 id="titulo">Build The Community Your Fans Will Love</h1>
+        <p id="texto">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
 
-  </main>
-  <footer>
+        <div id="register">
+          <button>Register</button>
+        </div>
+    </div>
     <ul class="redes">
       <li><img src="./src/images/icons8-facebook-novo-32.png" width="40" height="40" alt="facebook"></li>
       <li><img src="./src/images/icons8-instagram-48.png" width="40" height="40" alt="twitter"></li>
       <li><img src="./src/images/icons8-twitter-48.png" width="40" height="40" alt="instagram"></li>
     </ul>
-  </footer>
-
+  </main>
 </body>
 </html>

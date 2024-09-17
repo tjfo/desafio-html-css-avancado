@@ -1,56 +1,110 @@
 body{
-    background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%) center center no-repeat ;
+    background: url(../images/bg-desktop.svg) center center no-repeat var(--primary-dark);
+    background-size: cover;
     font-family: 'Open Sans';
     font-weight: 400;
     width: 100%;
+    height: 100vh;
     margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+   position: relative;
+   left: 5%;
+   padding-top: 55px;
+
 }
 
 main {
+    position: relative;
     display: flex;
-}
-.logo {
-    margin: 50px;
+    width: 100%;
+    height: calc(100% - 124px);
 }
 
-.container {
+.ilustracao-container, .informacoes-container {
+    position: relative;
     display: flex;
-    grid-template-areas: "imagem informacoes";
-    gap: 20px;
-    margin: 50px;
+    justify-content: center;
+    height: 100%;
    
 }
 
-.informacoes {
-    margin-top: 50px;
-    width: 500px;
-    text-align: left;
+.ilustracao-container {
+    align-items: center;
+    width: 55%;
+}
+
+.informacoes-container {
+    flex-direction: column;
+    width: 45%;
     color: #FFFFFF;
-    gap: 20px;
+    
     
 }
 
+.ilustracao {
+    width: 85%;
+    user-select: none;
+}
+
 .titulo{
-    line-height: 1.6em;
+    line-height: 70px;
+    font-size: 43px;
 }
 
 .texto{
-    line-height: 1.6em;
+    font-size: 18px;
+    line-height: 35px;
 }
-.botao{
-    background-color: #FFFFFF;
-    border-radius: 30px;
-    color: hsl(257, 40%, 49%);
-    margin-top: 35px;
-    margin-left: 15px 30px;
-    padding: 10px 20px;
-    width: 130px;
-    height: 45px;
-    text-align: center;
-    box-shadow: 5px 5px 25px hsl(259, 25%, 22%);
 
+#register{
+    position: relative;
+    width: 195px;
+    height: 55px;
+    background: white;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 3px 3px 15px #3c2c63;
+    overflow: hidden;
+
+}
+
+#register::before {
+    content:"";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--primary-light);
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-out;
+}
+
+#register:hover::before {
+    transform: translateY(0%);
+}
+
+#register button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: var(--primary-dark);
+    transition: color 0.15s ease-out;
+}
+
+#register:hover button {
+    color: white;
 }
 
 
@@ -60,4 +114,30 @@ main {
     margin: 50px;
     
 }
+.redes {
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+}
+
+.redes li {
+    position: relative;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: border-color 0.2s ease-out;
+}
+
+.redes li:hover {
+    border-color: var(--primary-light);
+    cursor: pointer;
+  }
+  
+
+  
+
+
+  
 
